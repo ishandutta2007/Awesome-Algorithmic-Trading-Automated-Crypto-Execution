@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution?style=flat-square&logo=github&color=gold" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution?style=flat-square&logo=github&color=blue" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -57,7 +57,7 @@ A comprehensive breakdown of leading hosted and cloud-based algorithmic trading 
 
 The open-source ecosystem provides unhindered, auditable, and self-hosted control over algorithmic strategies, quantitative execution, and exchange connectivity without compounding subscription fees.
 
-Projects below are equipped with live social star badges and organized in **descending order by GitHub star count**.
+Projects below are equipped with live social Stars_Badges and organized in **descending order by GitHub Stars_Count**.
 
 ### 🚀 Top Execution Bots & Full Systems
 
