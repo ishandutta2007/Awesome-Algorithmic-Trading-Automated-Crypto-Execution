@@ -1,305 +1,144 @@
-# Awesome-Algorithmic-Trading-Automated-Crypto-Execution
-
-# Awesome AI Website Builder & Landing Page Generator 🌟
-
-
-
-> **Top AI Website Builder Landing Page Generator (Opensource)**  
-
-> A curated list of the best AI-powered website builders and landing page generators — with a strong focus on **open-source** and self-hostable alternatives.  
-
-> 🌟 **Star if you like it!** 🌟
-
-
-
-AI website builders and landing page generators let you go from a simple prompt or description to a fully designed, responsive site (or conversion-focused landing page) in minutes. Commercial tools like Durable, 10Web, Framer AI, and others dominate the hosted space, but a growing ecosystem of open-source projects gives you full control, no vendor lock-in, and the ability to run locally or self-host.
-
-
-
-This list prioritizes **open-source GitHub projects** while keeping SaaS/hosted platforms clearly separated.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS / Hosted Platforms](#saas--hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS / Hosted Platforms
-
-
-
-These are popular commercial AI website builders and landing page generators (closed-source / hosted):
-
-
-
-- **[Durable](https://durable.co/)** — Generates a complete business website + CRM + invoicing in under 60 seconds. Ideal for local service businesses and solopreneurs.
-
-- **[10Web](https://10web.io/)** — AI website builder built on WordPress + Elementor. Can recreate sites from a URL or prompt and hosts on Google Cloud with performance optimization.
-
-- **[Framer AI](https://www.framer.com/)** — Design-first AI website builder with a powerful visual canvas, advanced animations, and CMS. Excellent for designers who want pixel-perfect control.
-
-- **[Wix Studio AI](https://www.wix.com/studio)** — AI-assisted website creation inside the Wix ecosystem (ADI + Studio tools). Strong for beginners and full marketing sites.
-
-- **[Hostinger AI Website Builder](https://www.hostinger.com/)** — Fast AI site generation tightly integrated with Hostinger hosting.
-
-- **[Dorik AI](https://dorik.com/)** — AI website & landing page builder focused on speed and simplicity.
-
-- **[Relume](https://www.relume.io/)** — AI-powered component library and site structure generator that works great with Figma → Webflow/Framer workflows.
-
-- **[TeleportHQ](https://teleporthq.io/)** — AI-assisted visual development platform with code export.
-
-- **[B12](https://www.b12.io/)** — AI website builder aimed at professional services (lawyers, consultants, agencies) with built-in marketing tools.
-
-- **[CodeDesign.ai](https://codedesign.ai/)** — AI website & landing page generator with clean code export options.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-Open-source alternatives and tools you can self-host, run locally, or extend. These range from full visual AI builders to prompt-to-landing-page generators and developer-focused frameworks.
-
-
-
-### Full AI Website / App Builders
-
-
-
-- **[buildingopen/openpage](https://github.com/buildingopen/openpage)**  
-
-  Open-source website builder with a Framer-like visual drag-and-drop editor + AI site generation (Gemini). JSON-first architecture (single source of truth). Self-hosted alternative to Framer / Lovable / v0. Built with React 19, TypeScript, Tailwind CSS v4. MIT.
-
-
-
-- **[stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy)**  
-
-  The popular open-source version of Bolt.new. Prompt → full-stack web apps & sites in the browser using WebContainers. Supports 20+ LLM providers (OpenAI, Anthropic, Gemini, Groq, Ollama, local models, etc.). Live preview, terminal, code editor, one-click deploy. Extremely active (~20k+ stars). MIT.
-
-
-
-- **[webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)**  
-
-  Advanced open-source visual website builder (strong Webflow/Framer alternative). Full CSS control, components, CMS connections, animations. AI support via MCP (agents can build/edit projects) + separate Inception design exploration tool. AGPL core. Self-hostable + hosted option.
-
-
-
-### AI Landing Page Generators
-
-
-
-- **[zinedkaloc/aipage.dev](https://github.com/zinedkaloc/aipage.dev)** (and forks such as jeus0522/AI-Landing-Page-Generator)  
-
-  Classic open-source AI landing page generator. Describe your page → get clean HTML + Tailwind CSS. Simple, fast, and still widely forked/used. MIT.
-
-
-
-- **[keyflowcoreg/pageforge](https://github.com/keyflowcoreg/pageforge)**  
-
-  AI landing page generator powered by Gemini 2.0 Flash. Multiple template styles, live responsive preview, export as Next.js or standalone HTML.
-
-
-
-- **[alexar76/aicom-landing](https://github.com/alexar76/aicom-landing)**  
-
-  One-prompt → self-contained HTML landing page in ~30–60 seconds. 20 style presets. Fully self-hosted, supports OpenAI / Ollama / DeepSeek. MIT. Perfect for rapid MVPs and A/B testing.
-
-
-
-- **[Cybrarist/InstantLand](https://github.com/Cybrarist/InstantLand)**  
-
-  Open-source landing page / marketing site builder with GrapeJS visual editor, A/B testing, custom forms, and campaign tools. Self-hostable (PHP/Laravel stack).
-
-
-
-### Other Notable Open-Source Tools & Templates
-
-
-
-- **[HugoBlox/hugo-theme-saas-landing-page](https://github.com/HugoBlox/hugo-theme-saas-landing-page)**  
-
-  Markdown-first SaaS landing page system. AI can generate the content; you own clean Markdown files. Extremely fast, free hosting forever (static). Great for developers who hate React maintenance.
-
-
-
-- **[RayVelez27/instalanding.ai](https://github.com/RayVelez27/instalanding.ai)**  
-
-  Library of premium single-file HTML landing pages + motion components. No frameworks, no build step. Designed for humans *and* AI coding agents (includes one-shot prompts).
-
-
-
-- **[ln-dev7/landing-pages](https://github.com/ln-dev7/landing-pages)**  
-
-  Collection of distinctive, personality-rich open-source landing pages built with Next.js + Tailwind + shadcn/ui.
-
-
-
-- **[all-in-aigc/pagen-ai-landing-page-template](https://github.com/all-in-aigc/pagen-ai-landing-page-template)**  
-
-  Clean Next.js + shadcn/ui AI landing page template generated by Pagen AI. Easy to customize.
-
-
-
-- **GrapesJS-based builders** and related projects (search “grapesjs landing” or “grapesjs page builder”) — the foundational open-source visual page builder that many self-hosted tools build upon.
-
-
-
-- Additional emerging projects worth watching: various multi-agent SEO landing page systems, local Ollama-powered generators, and visual editors that integrate with agents via MCP.
-
-
-
-> **Tip**: Many of the strongest open-source options today are either (1) visual builders with AI/MCP support (OpenPage, Webstudio) or (2) full prompt-to-app environments you can self-host (bolt.diy). For pure marketing landing pages, the simpler HTML/Tailwind generators are often the fastest path.
-
-
-
-## How to Contribute
-
-
-
-Contributions are welcome and encouraged!
-
-
-
-1. Fork the repository
-
-2. Add a new tool under the appropriate section (keep SaaS and Open-Source strictly separate)
-
-3. Use the same format: **Name** — short description + key features + license/link
-
-4. Prefer actively maintained projects with clear documentation
-
-5. Submit a Pull Request
-
-
-
-Please keep descriptions neutral and factual. Open-source projects are the primary focus of this list.
-
-
-
-## Disclaimer
-
-
-
-This is a community-curated list for informational purposes only.  
-
-Inclusion does not constitute an endorsement. Always review licenses, privacy policies, pricing, and security practices before using any tool (especially when handling customer data or deploying to production).  
-
-
-
-Some “open-source” projects may have dual licensing, proprietary components, or require paid API keys for AI features. Check the actual LICENSE file and documentation.
-
-
+# Awesome Algorithmic Trading & Automated Crypto Execution ⚡
+
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Algorithmic Trading and Automated Crypto Execution Banner" width="100%" />
+</div>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution?style=flat-square&logo=github&color=gold" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution?style=flat-square&logo=github&color=blue" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 📈 **A curated list of elite algorithmic trading systems, automated crypto execution bots, backtesting engines, and market-making frameworks.**  
+> 🌟 *Star the repository if you find it helpful! Contributions are always welcome.* 🌟
 
 ---
 
-
-
-**Made with ❤️ for the open-source community**  
-
-If this list helped you, please ⭐ the repo!
-# Awesome-Algorithmic-Trading-Automated-Crypto-Execution
-
-## Top Algorithmic Trading & Automated Crypto Execution Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Strategy Backtesting, Automated Execution & Self-Hosted Trading Engines*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Algorithmic Trading & Automated Crypto Execution**. These tools help traders and developers automate strategy execution, backtest ideas against historical data, and manage live trading across crypto exchanges and traditional brokers—covering everything from visual no-code builders to institutional-grade execution engines.
-
-**Examples** include QuantConnect, Alpaca, MetaTrader, TradingView, NinjaTrader, Freqtrade, Hummingbot, and Jesse (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted crypto trading bots, open-source backtesting frameworks, and community-driven execution engines—ideal for developers seeking full control over strategy logic and avoiding monthly subscription fees that compound over time. The open-source landscape is genuinely mature: **Freqtrade** leads with 56k+ stars and active weekly development , **Hummingbot** covers market making and arbitrage across 40+ CEX/DEX , and **Jesse** offers an advanced Python framework for systematic strategies .
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[QuantConnect](https://www.quantconnect.com/)**  
-  Cloud-based algorithmic trading platform with **Lean engine**, supporting equities, futures, options, and crypto. Offers backtesting, live trading, and data subscriptions. The **Lean engine is open-source** (Apache-2.0) with 31k+ stars and active development [citation:1].
-
-- **[Alpaca](https://alpaca.markets/)**  
-  Commission-free API-first brokerage for stocks, ETFs, and crypto. Provides **paper trading** and live execution APIs. **Official MCP server** (MIT) enables trading via LLM tools and IDEs [citation:11].
-
-- **[MetaTrader (MT4/MT5)](https://www.metatrader5.com/)**  
-  Industry-standard platform for forex and CFD algorithmic trading. Uses MQL4/MQL5 for expert advisors. Widely supported by brokers globally.
-
-- **[TradingView](https://www.tradingview.com/)**  
-  Charting platform with **Pine Script** for strategy development and alerts. Webhook integration enables automated execution through third-party bots.
-
-- **[NinjaTrader](https://ninjatrader.com/)**  
-  Futures and forex trading platform with C#-based strategy development, backtesting, and automated execution.
-
-- **[3Commas](https://3commas.io/)**  
-  Cloud crypto trading bot platform. **Starter: $15/mo annual** (spot only, 5 DCA + 2 grid bots); **Pro: $38/mo annual** (futures, unlimited exchange accounts, SmartTrade) [citation:3]. Free plan allows limited backtesting only.
-
-- **[Bitsgap](https://bitsgap.com/)**  
-  Cloud crypto trading bots with **COMBO (DCA + grid) strategy** and **leveraged futures grid** support on Binance, Bybit, and OKX. **Basic: $23/mo annual**; **Pro: $119/mo annual** [citation:3][citation:14].
-
-## Open-Source GitHub Projects
-
-- **[Freqtrade](https://github.com/freqtrade/freqtrade)**  
-  **Free, open-source crypto trading bot** with **56,911 GitHub stars**—the most popular in the category [citation:7][citation:12]. Python-based with a large strategy library, Telegram integration, backtesting, hyperopt, and live trading across major exchanges. **Active weekly development** [citation:7].
-
-- **[Hummingbot](https://github.com/hummingbot/hummingbot)**  
-  **Open-source market making and arbitrage platform** with **40+ CEX/DEX integrations** [citation:14]. Covers strategies no other retail-accessible platform offers: cross-exchange arbitrage, AMM liquidity provision, and market making. **Zero monthly cost**, but requires **4–8 hours setup** and CLI comfort [citation:14]. Recommended capital: **$1,000+** for arbitrage viability [citation:14].
-
-- **[Jesse](https://github.com/jesse-ai/jesse)**  
-  **Advanced crypto trading bot framework** in Python with **8,805 stars** and active development [citation:7]. Designed for systematic strategies with backtesting, optimization, and live execution.
-
-- **[Lean (QuantConnect)](https://github.com/QuantConnect/Lean)**  
-  **Open-source algorithmic trading engine** by QuantConnect, **C#** with **31,254 stars** and active development [citation:1]. Powers the QuantConnect cloud platform; supports multi-asset backtesting and live trading. Apache-2.0 licensed.
-
-- **[vn.py](https://github.com/vnpy/vnpy)**  
-  **China's most popular open-source quant trading platform** with **19k+ stars** [citation:6]. Python-based modular architecture supporting domestic Chinese exchanges and futures/options trading. Includes CTA strategies, algorithmic trading, and graphical interface.
-
-- **[Backtrader](https://github.com/mementum/backtrader)**  
-  **Popular Python backtesting framework** with **10k+ stars** [citation:6]. Event-driven architecture, intuitive API, supports multiple data sources and brokers. **Community activity has slowed** (last meaningful push 2024) [citation:1].
-
-- **[roboquant](https://github.com/roboquant/roboquant)**  
-  **Free Python algo-trading platform** (Apache-2.0) with fast backtesting, live trading, AI/ML strategies, and multi-asset support (stocks, options, forex, crypto) [citation:5]. Integrates with IBKR, Alpaca, and crypto exchanges.
-
-### Additional Strong Open-Source Options
-
-- **[hftbacktest](https://github.com/nkaz001/hftbacktest)** (5k+ stars) — High-frequency trading backtesting accounting for limit orders, queue position, and latency [citation:12].
-- **[ccxt](https://github.com/ccxt/ccxt)** (44k+ stars) — Unified trading API for 100+ crypto exchanges; the foundational library many bots build upon [citation:7].
-- **[passivbot](https://github.com/enarjord/passivbot)** (2k+ stars) — Grid trading bot running on Bybit, Bitget, OKX, GateIO, Binance, Kucoin, WEEX, and Hyperliquid [citation:7].
-- **[CryptoSignal](https://github.com/CryptoSignal/CryptoSignal)** (5k+ stars) — Technical analysis and signal bot; **last updated July 2024**—verify maintenance before use [citation:7].
-
-**Frameworks for building custom systems**: Combine **ccxt** for exchange connectivity, **Backtrader** or **Jesse** for strategy backtesting, and **Freqtrade** or **Hummingbot** for live execution. For AI-driven strategies, **roboquant** provides PyTorch/SB3 integration [citation:5].
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Algorithmic trading involves **substantial risk of loss**; automated execution can amplify losses during volatile markets. Never deploy capital you cannot afford to lose. Backtest results do not guarantee future performance.
-- **Open-source trading bots require technical expertise and ongoing maintenance.** **Hummingbot** needs 4–8 hours setup and $1,000+ capital for viable arbitrage—small-scale profitability is limited [citation:14]. **Backtrader** has slowed development (last meaningful push 2024) [citation:1]. **CryptoSignal** last updated July 2024—verify before relying on it [citation:7]. **Commercial platforms charge monthly fees that compound**: 3Commas Pro at $38/mo annual for futures [citation:3], Bitsgap Pro at $119/mo annual [citation:3]. **API key security is critical**—use trade-only keys without withdrawal permissions. Validate strategy logic, exchange compatibility, and maintenance status before committing real capital.
+## 📑 Table of Contents
+- [📌 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+  - [🚀 Top Execution Bots & Full Systems](#-top-execution-bots--full-systems)
+  - [📊 Backtesting, Quantitative Analysis & Market Data](#-backtesting-quantitative-analysis--market-data)
+  - [⚙️ Foundational Connectivity & Technical Indicators](#️-foundational-connectivity--technical-indicators)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📊 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
 ---
 
-**Made for algorithmic traders, quantitative developers, and teams building automated execution infrastructure.**  
-Let's make algorithmic trading more open, auditable, and risk-aware.
+## 📌 Sector Overview & Market Dynamics
+
+The global algorithmic trading market is valued at approximately **$19 billion to $21 billion** and is projected to expand toward **$40+ billion by the early 2030s** at an estimated CAGR of **8–9%**, with 24/7 automated crypto execution registering the fastest growth trajectory among all asset classes. The sector exhibits a **moderately fragmented market dynamic with concentrated infrastructure hubs**: while multi-venue liquidity dispersion across hundreds of centralized (CEX) and decentralized (DEX) exchanges fosters heavy fragmentation for execution bots, institutional market access and core charting infrastructure remain concentrated among a handful of heavyweight network winners (e.g., TradingView, MetaQuotes, Kraken/NinjaTrader, and Alpaca).
+
+---
+
+## 💼 SaaS & Hosted Platforms
+
+A comprehensive breakdown of leading hosted and cloud-based algorithmic trading platforms, sorted by estimated company scale (valuation / annual revenue).
+
+| Platform | Starting Tier Pricing | Free Tier / Trial Limit | Company Scale (Valuation / Revenue) | Key Strengths & Focus Areas |
+| :--- | :--- | :--- | :--- | :--- |
+| **[TradingView](https://www.tradingview.com/)** | $14.95/mo (Essential plan billed annually) | Free forever (Basic Plan: 1 chart/tab, up to 3 indicators/chart, 1 active alert with 30-day expiration, 5,000 historical bars, ads included) | **$3.0 Billion Valuation** (~$320M+ ARR) | World-standard charting terminal, Pine Script automated indicators, community strategies, and webhook alerts for automated bot execution. |
+| **[NinjaTrader](https://ninjatrader.com/)** | $99/mo (or $1,499 lifetime purchase) | Free forever for charting, market analysis, and unlimited simulated paper trading (live order execution requires a funded brokerage account or lease) | **$1.5 Billion Valuation** (Acquired by Kraken for $1.5B; ~$80M–$100M revenue) | High-performance futures & forex execution, C# strategy automation, advanced market depth, and direct multi-broker order routing. |
+| **[Alpaca](https://alpaca.markets/)** | $99/mo (Algo Trader Plus; base trading API is commission-free) | Free forever (Basic Plan: $0/mo, 200 REST API calls/min, IEX-only stock feed, 15-min delayed equity REST data, max 30 streaming WebSocket symbols) | **$1.15 Billion Valuation** (~$100M ARR; Series D Unicorn) | API-first developer brokerage offering commission-free equities, crypto execution, native paper trading, and LLM-assisted trading via MCP servers. |
+| **[MetaTrader (MT4/MT5)](https://www.metatrader5.com/)** | Free for retail client download (Brokers pay $3,000–$5,000+/mo server licensing fees) | Free forever for retail users (unlimited demo accounts, backtesting via Strategy Tester, and MQL4/MQL5 scripting through partner brokers) | **Multi-Billion Scale** (Est. $200M–$400M+ ARR; private market leader) | Global standard retail FX & CFD platform powering thousands of brokerages; automated Expert Advisors (EAs) and extensive algorithmic marketplace. |
+| **[QuantConnect](https://www.quantconnect.com/)** | $60/mo (Researcher Seat) | Free forever (1 personal user, unlimited cloud backtests on 1 concurrent node, daily/minute resolution data, 0 live trading nodes / no live brokerage routing) | **$44.4 Million Valuation** (~$1.1M+ ARR) | Multi-asset cloud quantitative backtesting and algorithmic trading engine; seamlessly pairs with the open-source LEAN framework in Python and C#. |
+| **[3Commas](https://3commas.io/)** | $15/mo (Starter plan billed annually) | 14-day free trial of Pro tier; permanent free plan restricted to manual trading terminals with paper trading backtesting only (0 active live bots) | **$40 Million Funding** (~$11M ARR; backed by Jump Capital & Alameda) | Cloud crypto management terminal with automated DCA, Grid, and TradingView custom signal webhook bots across 14+ crypto exchanges. |
+| **[Bitsgap](https://bitsgap.com/)** | $23/mo (Basic plan billed annually) | 7-day fully functional free trial with simulated demo mode; no ongoing permanent free live automated bot allowance | **€10 Million Scale** (Est. €3M–€8M ARR; venture backed by Server Partners) | Specialized crypto trading bot terminal featuring COMBO futures bots, high-frequency grid strategies, and smart order liquidity aggregation. |
+
+---
+
+## 🛠️ Open-Source GitHub Projects
+
+The open-source ecosystem provides unhindered, auditable, and self-hosted control over algorithmic strategies, quantitative execution, and exchange connectivity without compounding subscription fees.
+
+Projects below are equipped with live social star badges and organized in **descending order by GitHub star count**.
+
+### 🚀 Top Execution Bots & Full Systems
+
+* **[freqtrade/freqtrade](https://github.com/freqtrade/freqtrade)** <a href="https://github.com/freqtrade/freqtrade/stargazers"><img src="https://img.shields.io/github/stars/freqtrade/freqtrade?style=social&color=white" alt="Freqtrade Stars" /></a>  
+  *Free, open-source crypto algorithmic trading bot written in Python.* Features full backtesting, hyperparameter optimization (hyperopt), Telegram control bot, and live automated order execution across all major cryptocurrency exchanges via CCXT.
+* **[vnpy/vnpy](https://github.com/vnpy/vnpy)** <a href="https://github.com/vnpy/vnpy/stargazers"><img src="https://img.shields.io/github/stars/vnpy/vnpy?style=social&color=white" alt="vn.py Stars" /></a>  
+  *Enterprise-grade Python quantitative trading framework.* Modular development platform offering automated execution, event-driven architecture, and multi-market connectivity across domestic and global futures, equities, and crypto exchanges.
+* **[QuantConnect/Lean](https://github.com/QuantConnect/Lean)** <a href="https://github.com/QuantConnect/Lean/stargazers"><img src="https://img.shields.io/github/stars/QuantConnect/Lean?style=social&color=white" alt="Lean Stars" /></a>  
+  *Institutional-grade algorithmic trading engine developed by QuantConnect.* Written in C# with full Python support (via Python.NET), enabling local tick-by-tick backtesting and live automated order execution across equities, FX, options, futures, and crypto.
+* **[hummingbot/hummingbot](https://github.com/hummingbot/hummingbot)** <a href="https://github.com/hummingbot/hummingbot/stargazers"><img src="https://img.shields.io/github/stars/hummingbot/hummingbot?style=social&color=white" alt="Hummingbot Stars" /></a>  
+  *High-frequency crypto trading engine and market-making client.* Specializes in cross-exchange market making, automated arbitrage, and AMM decentralized exchange liquidity provision across 40+ centralized and decentralized order books.
+* **[jesse-ai/jesse](https://github.com/jesse-ai/jesse)** <a href="https://github.com/jesse-ai/jesse/stargazers"><img src="https://img.shields.io/github/stars/jesse-ai/jesse?style=social&color=white" alt="Jesse Stars" /></a>  
+  *Advanced systematic crypto trading framework in Python.* Engineered for rapid backtesting, genetic strategy optimization, clean syntax, interactive web dashboard monitoring, and automated live exchange execution.
+* **[Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot)** <a href="https://github.com/Drakkar-Software/OctoBot/stargazers"><img src="https://img.shields.io/github/stars/Drakkar-Software/OctoBot?style=social&color=white" alt="OctoBot Stars" /></a>  
+  *Open-source cryptocurrency automated trading bot with an intuitive web GUI.* Supports AI evaluation, DCA, Grid, and TradingView alert automation across Binance, Hyperliquid, OKX, and 15+ spot and perpetual markets.
+* **[Superalgos/Superalgos](https://github.com/Superalgos/Superalgos)** <a href="https://github.com/Superalgos/Superalgos/stargazers"><img src="https://img.shields.io/github/stars/Superalgos/Superalgos?style=social&color=white" alt="Superalgos Stars" /></a>  
+  *Visual open-source automated crypto trading system and data-mining engine.* Build complex quantitative strategies visually using interactive node graphs, coordinate multi-server bot clusters, and execute trades without code lock-in.
+* **[nkaz001/hftbacktest](https://github.com/nkaz001/hftbacktest)** <a href="https://github.com/nkaz001/hftbacktest/stargazers"><img src="https://img.shields.io/github/stars/nkaz001/hftbacktest?style=social&color=white" alt="hftbacktest Stars" /></a>  
+  *High-frequency trading (HFT) and market-making backtesting engine.* Highly realistic simulation accounting for limit order queue positions, feed delays, and network latencies using full tick-level Level-2/Level-3 market depth data for Binance and Bybit.
+* **[enarjord/passivbot](https://github.com/enarjord/passivbot)** <a href="https://github.com/enarjord/passivbot/stargazers"><img src="https://img.shields.io/github/stars/enarjord/passivbot?style=social&color=white" alt="Passivbot Stars" /></a>  
+  *Self-hosted perpetual futures grid trading bot.* Designed for algorithmic position management and risk mitigation across Bybit, Bitget, OKX, Gate.io, Binance, KuCoin, WEEX, and Hyperliquid.
+
+### 📊 Backtesting, Quantitative Analysis & Market Data
+
+* **[ranaroussi/yfinance](https://github.com/ranaroussi/yfinance)** <a href="https://github.com/ranaroussi/yfinance/stargazers"><img src="https://img.shields.io/github/stars/ranaroussi/yfinance?style=social&color=white" alt="yfinance Stars" /></a>  
+  *Definitive Python market data downloader.* Fetches historical and real-time prices, financial metrics, and corporate action data for quantitative modeling and backtest pipelines.
+* **[mementum/backtrader](https://github.com/mementum/backtrader)** <a href="https://github.com/mementum/backtrader/stargazers"><img src="https://img.shields.io/github/stars/mementum/backtrader?style=social&color=white" alt="Backtrader Stars" /></a>  
+  *Widely adopted Python backtesting framework.* Clean object-oriented architecture for backtesting custom indicators, managing position sizing, and plotting strategy returns.
+
+### ⚙️ Foundational Connectivity & Technical Indicators
+
+* **[ccxt/ccxt](https://github.com/ccxt/ccxt)** <a href="https://github.com/ccxt/ccxt/stargazers"><img src="https://img.shields.io/github/stars/ccxt/ccxt?style=social&color=white" alt="CCXT Stars" /></a>  
+  *The core connectivity layer for algorithmic crypto.* A unified JavaScript / TypeScript / Python / C# / PHP trading library connecting to over 100 cryptocurrency exchanges and prediction markets with normalized order book and execution endpoints.
+* **[TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python)** <a href="https://github.com/TA-Lib/ta-lib-python/stargazers"><img src="https://img.shields.io/github/stars/TA-Lib/ta-lib-python?style=social&color=white" alt="TA-Lib Python Stars" /></a>  
+  *High-speed Python wrapper for TA-Lib.* Computes 150+ quantitative and technical indicators (MACD, RSI, Bollinger Bands, Stochastic, Pattern Recognition) with optimized C-level speed.
+* **[bukosabino/ta](https://github.com/bukosabino/ta)** <a href="https://github.com/bukosabino/ta/stargazers"><img src="https://img.shields.io/github/stars/bukosabino/ta?style=social&color=white" alt="ta Stars" /></a>  
+  *Pure Python Technical Analysis Library built on Pandas and NumPy.* Provides seamless feature engineering for machine learning and quantitative trading strategies without C-compiler prerequisites.
+* **[peerchemist/finta](https://github.com/peerchemist/finta)** <a href="https://github.com/peerchemist/finta/stargazers"><img src="https://img.shields.io/github/stars/peerchemist/finta?style=social&color=white" alt="FinTA Stars" /></a>  
+  *Common financial technical indicators implemented in Pandas.* Lightweight, fast library covering 80+ quantitative indicators for automated trading signals.
+* **[alpacahq/alpaca-py](https://github.com/alpacahq/alpaca-py)** <a href="https://github.com/alpacahq/alpaca-py/stargazers"><img src="https://img.shields.io/github/stars/alpacahq/alpaca-py?style=social&color=white" alt="Alpaca-py Stars" /></a>  
+  *The official Python SDK for Alpaca's Trading, Market Data, and Broker APIs.* Directly submit orders, stream live quotes over WebSockets, and manage crypto/equity portfolios programmatically.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions from quantitative traders, algorithm developers, and open-source maintainers make this ecosystem better!
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a descriptive feature branch** (`git checkout -b feature/add-new-trading-engine`).
+3. 📝 **Add or update an entry** under the correct section (keep SaaS and Open-Source strictly partitioned).
+   - Ensure SaaS entries include verified starting tier pricing, free tier / trial specifics, and company scale metrics.
+   - For Open-Source entries, verify repository maintenance, include the official stargazer badge (`style=social&color=white`), and place it into the star-sorted ranking.
+4. 🚀 **Submit a Pull Request** with a summary of the added platform.
+
+---
+
+## 💖 Support
+
+If this repository assisted your quantitative research, saved you infrastructure setup time, or boosted your automated trading profits, consider supporting ongoing curation:
+
+- ⭐ **Star this repository** to help other algorithmic traders discover it.
+- 🍴 **Fork and share** with your quantitative community and trading groups.
+- ☕ **Buy a coffee or sponsor development:** Support directly via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Algorithmic-Trading-Automated-Crypto-Execution&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a community-curated educational directory and does not constitute financial, investment, or legal advice.
+- **Algorithmic and cryptocurrency trading involves substantial risk of capital loss.** Automated execution engines can magnify drawdowns during high-volatility events, exchange API outages, or unexpected market regime shifts. Never deploy capital you cannot afford to lose.
+- Backtested performance does not guarantee future live trading alpha. Always audit strategy logic, verify order fill assumptions, and employ trade-only API keys without withdrawal permissions.
+
+---
+
+<p align="center">
+  <b>Built for quantitative developers, algorithmic crypto traders, and systematic fund architects. ⚡</b>
+</p>
